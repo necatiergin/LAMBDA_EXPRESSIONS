@@ -10,7 +10,7 @@ int main()
 	std::cout << f1(2, 1.5) << '\n'; //3
 	std::cout << f2(2, 1.5) << '\n'; //3.5
 	std::cout << f3(2, 1.5) << '\n'; //3
-	//std::cout << f4(2, 1.5) << '\n'; //gecersiz
-	std::cout << f4(2., 1.5) << '\n'; //gecerli 3.5
-	std::cout << f4(3, 5) << '\n'; //gecerli 8
+	//std::cout << f4(2, 1.5) << '\n'; //invalid
+	std::cout << f4(2., 1.5) << '\n'; //valid 3.5
+	std::cout << f4(3, 5) << '\n'; //valid 8
 }
