@@ -1,4 +1,4 @@
-//lambdalarin varsayilan arguman almasi C++14 ile dile eklendi
+//since C++14
 
 #include <iostream>
 
