@@ -4,10 +4,12 @@ int main()
 {
 	int ival{};
 
-	auto f = [&v = ival](int x) 
-	{
-		v += x; 
-	};
+	std::cout << "ival = " << ival << '\n';
+
+	auto f = [&v = ival](int x)
+		{
+			v += x;
+		};
 
 	f(20);
 
