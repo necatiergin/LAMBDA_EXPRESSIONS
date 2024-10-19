@@ -7,7 +7,7 @@ int main()
 
 	int x{ 20 };
 	auto f4 = [x](int a) {return a * x; };
-	//decltype(f4)f5; //gecersiz (stateless lambda değil)
+	//decltype(f4)f5; //invalid (stateful lambda)
 	auto f6 = f4;
-	//f6 = f4;  //gecersiz (stateless lambda değil)
+	//f6 = f4;  //invalid (stateful lambda)
 }
