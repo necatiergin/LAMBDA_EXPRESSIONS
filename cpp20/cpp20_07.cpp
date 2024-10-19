@@ -1,4 +1,4 @@
-//bu kod gecersiz
+//this code is invalid
 
 template<class F, class... Args>
 auto delay_invoke(F f, Args... args) {
