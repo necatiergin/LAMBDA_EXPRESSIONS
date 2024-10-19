@@ -1,3 +1,5 @@
+//iife  
+
 struct Foo {
     int baz;
     Foo(int bar) : baz([&]{
