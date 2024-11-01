@@ -1,3 +1,5 @@
+//the same deduction rules for return type as template argument deduction
+
 int main()
 {
 	auto f = []() {
