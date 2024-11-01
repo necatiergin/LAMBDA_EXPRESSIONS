@@ -1,3 +1,6 @@
+// lambda expression in unevaluated context
+// template argument
+
 #include <memory>
 #include <iostream>
 
