@@ -1,3 +1,5 @@
+//trailing return type
+
 int main()
 {
 	auto f1 = [](int x) {return x + 5; };
