@@ -1,3 +1,5 @@
+// trailing return types
+
 int main()
 {
 	auto f3 = [](int x)->double {
