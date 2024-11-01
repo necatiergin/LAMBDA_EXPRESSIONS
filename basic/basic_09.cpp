@@ -1,3 +1,5 @@
+// noexcept specifier
+
 int main()
 {
 	auto f1 = [](int x) {return x * x; };
