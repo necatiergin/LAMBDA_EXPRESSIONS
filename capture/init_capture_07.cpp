@@ -10,5 +10,4 @@ int main()
 		};
 	
 	std::cout << f(10);
-
 }
