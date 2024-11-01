@@ -1,3 +1,5 @@
+//lambda expression in unevaluated context
+
 #include <iostream>
 
 int main()
