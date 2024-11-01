@@ -7,8 +7,8 @@ struct Nec {
 		auto f1 = [=] {++mx; };  //deprecated in C++20
 		auto f2 = [&] {++mx; };
 		auto f3 = [this] {++mx; };
-		//auto f4 = [*this]() {++mx; }; //gecersiz
-		auto f5 = [*this]() mutable {++mx; }; //gecerli //C++17
+		//auto f4 = [*this]() {++mx; }; //invalid
+		auto f5 = [*this]() mutable {++mx; }; //valid //C++17
 
 		f1();
 		f2();
