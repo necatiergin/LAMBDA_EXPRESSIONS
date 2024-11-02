@@ -3,7 +3,7 @@
 template <typename... Args>
 void print(Args &&... args)
 {
-    std::initializer_list<int>{((std::cout << std::forward<Args>(args) << "\n"), 0)...};
+    std::initializer_list<int>{((std::cout << std::forward<Args>(args) << '\n'), 0)...};
 }
 
 
