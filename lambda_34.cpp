@@ -1,3 +1,5 @@
+//constexpr lambda
+
 auto f1 = [](auto x) constexpr {return x * x; }; //since C++17
 auto f2 = [](int x) constexpr -> int {return x * x; }; //since C++17
 
