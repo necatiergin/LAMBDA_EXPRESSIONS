@@ -3,8 +3,13 @@
 int main(void)
 {
 	int x = 7;
-	auto fvx = [&]() { return x; };
-	//auto& r = fvx(); //error;
+	auto f1 = [&]() { return x; };
+	auto f2 = [&]()-> int& { return x; };
+	auto f3 = [&]()-> decltype(auto) { return x; };
 
-	std::cout << fvx() << '\n';
+	//f1() = 10;  //error
+	f2() = 3;  
+	//f3() = 10;  //error
+	
+	std::cout << f1() << f2() << f3() << '\n';
 }
