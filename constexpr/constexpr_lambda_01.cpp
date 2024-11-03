@@ -12,21 +12,20 @@ int main()
 		static int cnt = 0;
 		++cnt;
 		return x * cnt;
-	};
+		};
 	//std::array<int, f1(10)> a2; //gecersiz
 	std::cout << f1(20) << "\n";
-	
+
 	auto f2 = [](int x)constexpr { //3 f2 nesnesinin tanimi gecersiz
 		static int cnt = 0;
 		++cnt;
 		return x * cnt;
-	};
+		};
 
 }
 
-//1 fsquare(5) ifadesi C++17 ile birlikte artık varsayılan şekilde constexpr. 
-//Dolayısıyla fonksiyona sabit ifadeleri ile yapılan çağrıdan elde edilen geri dönüş değeri sabit ifadesi gereken yerlerde kullanılabilir.
+// since C++17 fsquare(5) expression is constexpr by default
 
-//2 f1 tanımımda static yerel değişken kullanıldığı için artık bu lambda constexpr kabul edilmiyor.
+// f1 lambda function definition doesn't satisfy constexpr requirements. f1(10) is noy constant expression
 
-//3 f2 nesnesinin ise tanımı geçersiz.eğer constexpr anahtar sözcüğü kullanılmasaydı tanım geçerli olacaktı.
+// the definition of lambda function f2 is invalid because of constexpr specifier.
