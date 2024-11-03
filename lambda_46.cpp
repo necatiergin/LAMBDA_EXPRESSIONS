@@ -3,7 +3,7 @@
 
 auto get_fn(char left, char right)
 {
-	return [left, right](int val) {;
+	return [left, right](int val) {
 	return left + std::to_string(val) + right; };
 }
 
