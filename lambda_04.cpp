@@ -1,3 +1,5 @@
+// same lambdas - different closure types
+
 #include <type_traits>
 #include <iostream>
 
