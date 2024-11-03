@@ -6,5 +6,5 @@ int main()
 
 	str.assign("necati");
 
-	auto f = [str]() {str.assign("ergin)"}; //invalid
+	auto f = [str]() {str.assign("ergin)"}; //invalid  - const member function
 }
