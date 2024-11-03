@@ -1,4 +1,4 @@
-//trailing return type
+// trailing return type
 
 int main()
 {
