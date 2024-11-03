@@ -1,3 +1,5 @@
+// recursive lambda
+
 int main() 
 {
 	const auto factorial = [](int n) {
@@ -8,5 +10,5 @@ int main()
 			return fact_impl(n, fact_impl);
 	};
 
-	std::cout << factorial(7) << "\n";
+	std::cout << factorial(7) << '\n';
 }
