@@ -1,4 +1,5 @@
 // C++20
+// stateless lambdas are default constructible and default assignable
 
 int main()
 {
