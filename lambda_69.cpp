@@ -1,3 +1,5 @@
+// templated lambda
+
 #include <utility>
 
 template <typename ...Types>
