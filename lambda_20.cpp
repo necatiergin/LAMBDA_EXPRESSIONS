@@ -1,3 +1,5 @@
+// capture
+
 #include <iostream>
 
 int main()
