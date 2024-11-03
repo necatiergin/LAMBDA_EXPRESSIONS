@@ -1,3 +1,5 @@
+// templated lambda
+
 #include <vector>
 #include <utility>
 
