@@ -1,3 +1,5 @@
+// only once
+
 #include <iostream>
 
 class Nec {
