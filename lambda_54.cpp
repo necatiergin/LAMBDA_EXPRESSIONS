@@ -1,4 +1,5 @@
 //lambda expression in unevaluated context
+// default constructible closure type
 
 #include <iostream>
 
