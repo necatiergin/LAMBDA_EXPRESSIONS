@@ -1,3 +1,5 @@
+// C++20
+
 int main()
 {
 	auto f1 = [](int x) {return x * x; };
