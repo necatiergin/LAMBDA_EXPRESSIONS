@@ -1,4 +1,4 @@
-//since C++14
+//lambda functions may have default arguments since C++14
 
 #include <iostream>
 
