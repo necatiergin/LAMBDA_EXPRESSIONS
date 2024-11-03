@@ -1,4 +1,3 @@
-
 constexpr auto sum = [](int a, int b) {
 	auto lf = [=] { return a; };
 	auto rf = [=] { return b; };
