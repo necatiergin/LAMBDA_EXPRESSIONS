@@ -1,3 +1,4 @@
+// implicit conversion to function pointer type 
 
 int main()
 {
