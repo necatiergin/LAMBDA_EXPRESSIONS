@@ -1,3 +1,5 @@
+// lambda init capture
+
 #include <memory>
 #include <string>
 #include <iostream>
