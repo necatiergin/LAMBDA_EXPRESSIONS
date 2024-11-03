@@ -5,9 +5,11 @@ int main()
 {
 	int a[10]{};
 
-	auto fx = [a]() {std::cout << typeid(a).name() << '\n'; };
-	fx();
+	auto f1 = [a]() {std::cout << typeid(a).name() << '\n'; };
+	f1();
 
-	auto fy = [a = a]() {std::cout << typeid(a).name() << '\n'; };
-	fy();
+	auto f2 = [a = a]() {std::cout << typeid(a).name() << '\n'; };
+	f2();
+
+	auto f3 = [a]()mutable {a = nullptr; }; //invalid. a is an array not pointer
 }
