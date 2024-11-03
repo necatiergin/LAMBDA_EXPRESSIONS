@@ -1,3 +1,5 @@
+// this capture
+
 #include <iostream>
 
 struct Nec {
