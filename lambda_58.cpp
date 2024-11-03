@@ -19,6 +19,6 @@ int main()
 {
     auto f = delay_invoke(foo, 1, 2, 3);
 
-    auto n = f();
-    std::cout << "n = " << n << '\n';
+    auto x = f();
+    std::cout << "x = " << x << '\n';
 }
