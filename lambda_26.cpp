@@ -1,3 +1,5 @@
+// lambda init. capture
+
 #include <iostream>
 
 int main()
