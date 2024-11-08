@@ -7,5 +7,5 @@ int main()
 	int i{ 4 };
 	auto f2 = [i](int x) {return x * i; };
 	
-	//int (*pf2)(int) = f2; //error. no implicit conversiomn. (stateful lambda)
+	//int (*pf2)(int) = f2; //error. no implicit conversion. (stateful lambda)
 }
