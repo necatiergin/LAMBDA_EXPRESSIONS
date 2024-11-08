@@ -1,7 +1,6 @@
 #include <functional>
 #include <iostream>
 
-
 int main()
 {
     std::function<int(int, int)> gcd = [&](int a, int b) {
