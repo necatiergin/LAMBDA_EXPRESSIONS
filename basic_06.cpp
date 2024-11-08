@@ -1,3 +1,5 @@
+// lambda expressions are PRvalues
+
 int main()
 {
 	//auto& r1 = [] {}; //invalid - L value ref doesn't bind to R value
