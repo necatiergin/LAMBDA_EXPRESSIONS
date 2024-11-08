@@ -1,7 +1,5 @@
 // local classes
 
-// local classes
-
 void foo(int);
 int g = 10;
 
