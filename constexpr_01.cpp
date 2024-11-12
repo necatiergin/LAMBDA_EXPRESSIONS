@@ -16,7 +16,7 @@ int main()
 	//std::array<int, f1(10)> a2; //gecersiz
 	std::cout << f1(20) << "\n";
 
-	auto f2 = [](int x)constexpr { //3 f2 nesnesinin tanimi gecersiz
+	auto f2 = [](int x)constexpr { //invalid
 		static int cnt = 0;
 		++cnt;
 		return x * cnt;
@@ -26,6 +26,6 @@ int main()
 
 // since C++17 fsquare(5) expression is constexpr by default
 
-// f1 lambda function definition doesn't satisfy constexpr requirements. f1(10) is noy constant expression
+// f1 lambda function definition doesn't satisfy constexpr requirements. f1(10) is not a constant expression
 
 // the definition of lambda function f2 is invalid because of constexpr specifier.
