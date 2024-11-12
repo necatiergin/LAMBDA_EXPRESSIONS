@@ -1,5 +1,7 @@
 // recursive lambda
 
+#include <iostream>
+
 int main() 
 {
 	const auto factorial = [](int n) {
