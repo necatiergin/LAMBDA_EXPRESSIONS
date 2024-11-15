@@ -14,5 +14,5 @@ int main()
 	f(a);
 
 	for (auto i : a)
-		std::cout << i << " ";
+		std::cout << i << ' ';
 }
