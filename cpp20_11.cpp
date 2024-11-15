@@ -1,3 +1,5 @@
+// lambda in unevaluated context
+
 #include <iostream>
 #include <set>
 
