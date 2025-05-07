@@ -1,6 +1,6 @@
 // lambda init. capture
 
-;#include <iostream>
+#include <iostream>
 
 int main()
 {
