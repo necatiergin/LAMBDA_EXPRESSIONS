@@ -14,7 +14,7 @@ void f1(vector<shared_ptr<string>>& svec)
 		const shared_ptr<string>& b) { return *a < *b; });
 
 	for_each(begin(svec), end(svec), [](const shared_ptr<string>& sp)
-		{ cout << *sp << "\n"; });
+		{ cout << *sp << '\n'; });
 
 	std::cout << "\n\n";
 }
@@ -25,7 +25,7 @@ void f2(vector<shared_ptr<string>>& svec)
 		{ return *a < *b; });
 
 	for_each(begin(svec), end(svec), [](const auto& sp)
-		{ cout << *sp << "\n"; });
+		{ cout << *sp << '\n'; });
 }
 
 int main()
