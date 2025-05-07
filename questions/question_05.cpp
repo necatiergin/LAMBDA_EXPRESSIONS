@@ -1,4 +1,4 @@
-//sentaks hatası olan yerleri işaretleyin
+// mark syntax errors
 
 int main()
 {
