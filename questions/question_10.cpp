@@ -24,10 +24,3 @@ void foo_3()
 	constexpr auto b = std::is_same_v<decltype(f1), decltype(f2)>;
 }
 
-void foo_4()
-{
-	auto f1 = []() {};
-	decltype(f1) f2;
-
-	constexpr auto b = std::is_same_v<decltype(f1), decltype(f2)>;
-}
