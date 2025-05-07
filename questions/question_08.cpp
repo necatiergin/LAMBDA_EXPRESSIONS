@@ -1,4 +1,4 @@
-// ekran çıktısı ne olur?
+// what is the output?
 
 #include <iostream>
 
@@ -8,7 +8,7 @@ int main()
 {
 	auto f = [](int x = ++g) {return x * x; };
 
-	auto x = f();
+	auto x = f();	   
 	auto y = f();
 
 	std::cout << x << ' ' << y << ' ' << g << '\n';
