@@ -1,5 +1,5 @@
 // C++20
-// stateless lambdas are default constructible and default assignable
+// stateless lambdas are default constructible and copy assignable
 
 int main()
 {
