@@ -5,6 +5,8 @@ class Processor {
     Operation m_op;
 
 public:
+   // explicit Processor(Operation op) : m_op(op)  {}
+
     T process(T value) const
     {
         return m_op(value);
@@ -21,3 +23,4 @@ int main()
 
     std::cout << p.process(30) << '\n';
 }
+
