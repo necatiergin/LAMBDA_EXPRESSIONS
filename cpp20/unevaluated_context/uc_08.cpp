@@ -1,4 +1,13 @@
- lhs, const Task& rhs) {
+#include <queue>
+#include <vector>
+
+struct Task {
+    int id;
+    int priority;
+};
+
+using TaskCompare = decltype(
+    [](const Task& lhs, const Task& rhs) {
         return lhs.priority < rhs.priority;
     }
 );
