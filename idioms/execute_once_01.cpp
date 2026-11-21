@@ -1,4 +1,7 @@
-// only once
+// execute once
+// run-once
+// one-time init
+
 
 #include <iostream>
 
